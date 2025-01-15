@@ -13,7 +13,7 @@ type Config struct {
                 User     string `json:"user"`
                 Password string `json:"password"`
                 Name     string `json:"dbname"`
-                SSLMode  string `json:"sslmode"` // e.g., "disable" or "require"
+                SSLMode  string `json:"sslmode"`
         } `json:"database"`
 }
 
