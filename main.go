@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"test/cmd"
 
-func main(){
-	fmt.Println("hiiiiii")
+)
+
+func main() {
+	fmt.Println("Haloooo !")
+    cmd.main() 
 }
